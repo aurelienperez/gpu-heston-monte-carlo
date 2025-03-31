@@ -16,3 +16,7 @@ Each scheme leverages **CUDA** for high-performance parallel computations. Traje
 `heston.cu`: CUDA source code for the simulation.
 
 `heston_gpu.pdf`: Project presentation slides.
+
+## Acknowledgements
+
+This implementation was inspired by the CUDA examples and materials provided by **Lokman Abbas-Turki** as part of the course *"Massive Parallel Programming on GPU Devices for Big Data"*.
