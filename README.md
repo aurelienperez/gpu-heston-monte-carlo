@@ -11,3 +11,8 @@ The project includes implementations of three discretisation schemes:
 - **Almost Exact scheme** (Haastrecht-Pelsser)
 
 Each scheme leverages **CUDA** for high-performance parallel computations. Trajectories are simulated independently at thread-level, with efficient shared-memory reductions performed at the block level.
+
+## Repository Content
+`heston.cu`: CUDA source code for the simulation.
+
+`heston_gpu.pdf`: Project presentation slides.
